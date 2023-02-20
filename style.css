@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #F2F2F2;
+}
+
+.first-title{
+    margin-top: 8.5rem;
+    display: flex;
+    width: 31.1rem;
+    height: 16.1rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.reliable{
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    font-weight: 200;
+    color: #4d4f62;
+    letter-spacing: 0.16px;
+}
+.powered{
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    font-weight: 600;
+    color: #4d4f62;
+    letter-spacing: 0.16px;
+}
+
+.full-txt{
+    margin-top: 1.3rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+    color: #4d4f62;
+    opacity: 0.5;
+}
+
+.container{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-top: 7.6rem;
+    margin-bottom: 7.8rem;
+}
+
+.supervisor, .team-builder, .karma, .calculator{
+    display: flex;
+    flex-direction: column;
+    width: 31.1rem;
+    height: 22.2rem;
+    background-color: white;
+    border-radius: 0.8rem;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    padding: 2.3rem 2.8rem 2.8rem 2.8rem;
+}
+.supervisor{
+    border-top:  solid #44d3d2 3.55px;
+
+}
+.ttl-team, .ttl-karma, .ttl-calculator, .ttl-super{
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 600;
+    color: #4d4f62;
+}
+.txt-team, .txt-karma, .txt-calculator, .txt-super{
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    font-weight: 400;
+    color: #4d4f62;
+    letter-spacing: 0.09px;
+    opacity: 0.5;
+}
+.icon-team, .icon-karma, .icon-calculator, .icon-super{
+  display: flex;
+  align-items: end;
+  justify-content: right;
+  margin-top: 3.3rem;
+}
+.two-div{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.team-builder{
+    border-top:  solid #ea5454 3.55px;
+}
+.karma{
+    border-top:  solid #fcae4a 3.55px;
+}
+.calculator{
+    border-top:  solid #549ef2 3.55px;
+}
+
+
+@media only screen and (min-width: 1440px){
+    .first-title{
+        width: 54rem;
+        height: 16.8rem;
+        margin-top: 7rem;
+    }
+    .reliable{
+        font-size: 3.6rem;
+        line-height: 5.4rem;
+        font-weight: 200;
+        color: #4d4f62;
+        letter-spacing: 0.25px;
+    }
+    .powered{
+        font-size: 3.6rem;
+        line-height: 5.4rem;
+        font-weight: 600;
+        color: #4d4f62;
+        letter-spacing: 0.25px;
+    }
+    .container{
+        flex-direction: row;
+        margin-top: 6.4rem;
+        gap: 3rem;
+    }
+    .two-div{
+        gap: 3rem;
+    }
+    .supervisor, .team-builder, .karma, .calculator{
+        padding: 2.8rem 3.2rem 3.2rem 3.2rem;
+    }
+    .supervisor{
+        border-top:  solid #44d3d2 4px;
+    
+    }
+    .team-builder{
+        border-top:  solid #ea5454 4px;
+    }
+    .karma{
+        border-top:  solid #fcae4a 4px;
+    }
+    .calculator{
+        border-top:  solid #549ef2 4px;
+    }
+
+}
